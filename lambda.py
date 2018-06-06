@@ -10,3 +10,9 @@ except ImportError:
     import pip._internal
 
 logger.info("pip version will set to latest")
+
+logger.info("info will pushed to jenkins")
+
+from time import time
+
+logger.error("time version was not set to latest path")
